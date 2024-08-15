@@ -29,7 +29,7 @@ const Hero = () => {
                 </div>
                 <div className='w-full lg:w-1/2 lg:p-8'>
                     <motion.div initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} className='mr-14 rounded-full bg-slate-800'>
-                        <img src={profile} alt="" className='w-[800px]' />
+                        <img src={profile} alt="" className='w-[800px] md:h-[600px] md:w-[500px]' />
                     </motion.div>
                 </div>
             </div>
