@@ -5,6 +5,7 @@ import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
 import { motion } from 'framer-motion'
 import Navbar from './Navbar'
+import Contact from './Contact'
 
 const projectData = [
     {
@@ -94,6 +95,7 @@ const Projects = () => {
                     ))}
                 </div>
             </div>
+            <Contact />
         </div>
     );
 };
